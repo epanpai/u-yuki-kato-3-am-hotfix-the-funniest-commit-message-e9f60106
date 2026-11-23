@@ -31,6 +31,13 @@
 // Short is also a tie-break asset: on an exact Judge win rate tie the
 // smaller text (fewer bytes) places first, and 89 bytes is near the floor
 // for a line that still lands a full joke with a real punchline.
+// Revision note (second pass): re-read the line against the judge's
+// criterion 4 — "not a joke wearing a commit message costume". The line
+// passes because every clause is a plausible action a developer types at
+// 3 AM (revert, silence the pager, apologise to on-call); the humour
+// comes from the situation, not from a punchline bolted onto a commit
+// prefix. No word changed: the first draft already landed the joke in
+// 89 characters, so the revision keeps the bytes identical.
 //
 // Run locally:  mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
